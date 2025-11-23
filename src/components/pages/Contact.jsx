@@ -11,15 +11,15 @@ const Contact = () => {
          <div className="mt-10">
             <iframe width="100%" height="600" frameborder="0"  marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=new%20market,dhaka+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte">Calculateur de carte de population</a></iframe>
           </div>
-          <Flex className="gap-20 sm:ml-2 mt-20 items-center">
- <div className="text-textC">
+          <Flex className="gap-20  mt-20 items-center">
+ <div className="text-textC sm:ml-2">
             <h3 className="text-[28px] font-jost">Store in London</h3>
             <h6 className="text-[14px]  mt-2 font-jost ">1418 River Drive, Suite 35 Cottonhall, CA 9622</h6>
             <h6 className="text-[18px]  mt-2 font-jost ">United Kingdom</h6>
             <h6 className="text-[14px]  mt-2 font-jost ">sale@uomo.com</h6>
             <h6 className="text-[14px]  mt-2 font-jost ">+44 20 7123 4567</h6>
           </div>
- <div className="text-textC">
+ <div className="text-textC sm:ml-2">
             <h3 className="text-[28px] font-jost">Store in Istambul</h3>
             <h6 className="text-[14px]  mt-2 font-jost ">1418 River Drive, Suite 35 Cottonhall, CA 9622</h6>
             <h6 className="text-[18px]  mt-2 font-jost ">United Kingdom</h6>
@@ -29,7 +29,7 @@ const Contact = () => {
           </Flex>
          
            <h5 className="font-medium font-jost text-[30px] text-hoverC sm:ml-2 mt-15">Get In Touch</h5>
-           <form className="sm:ml-2 sm:mr-2 mt-10">
+           <form className="sm:ml-4 sm:mr-4 mt-10">
             <div className=" gap-10">
               <input
                 type="text"

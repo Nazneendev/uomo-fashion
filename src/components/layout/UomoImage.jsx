@@ -43,7 +43,6 @@ const UomoImage = () => {
 
        <Flex className="flex-col sm:flex-row justify-between items-center gap-10 sm:ml-2 sm:mr-2 mt-30">
 
-
   <div className="flex flex-col items-center text-center">
     <ImHeadphones className="text-textC text-[60px] sm:text-[80px]" />
     <h3 className="text-textC font-jost font-medium text-[18px] sm:text-[20px] mt-4">

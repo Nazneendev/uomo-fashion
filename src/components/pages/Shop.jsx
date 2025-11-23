@@ -19,7 +19,7 @@ const Shop = () => {
    <>
    
     <div className="">
-        <div style={{ backgroundImage: `url(${blogbg})`}} className=" bg-center bg-cover bg-no-repeat mx-[50px] pt-[50px] ">
+        <div style={{ backgroundImage: `url(${blogbg})`}} className=" bg-center bg-cover bg-no-repeat  pt-[50px] ">
           <div className="">
             <Container>
               <Flex className="justify-between flex-col lg:flex-row ">
@@ -28,16 +28,17 @@ const Shop = () => {
                   <div className="flex items-center gap-x-4 mb-6">
                    
                   </div>
-                  <h1 className="text-textC font-jost font-bold sm:text-[35px] text-[75px] leading-[80px]">Jackets & Coats</h1>
+                  <h1 className="text-textC font-jost font-bold sm:text-[35px] lg:text-[65px] text-[65px] leading-[80px]">Jackets & Coats</h1>
                   
-          <div className="sm:ml-5">
+          <div className="">
             
-            <ul className="flex items-center gap-5 mt-10">
+            <ul className="flex flex-wrap items-center gap-3 sm:gap-5 mt-8">
               <li className="text-[14px] font-jost text-textC font-bold">ALL</li>
               <li className="text-[14px] font-jost text-textC font-bold">COMPANY</li>
               <li className="text-[14px] font-jost text-textC font-bold">FASHION</li>
               <li className="text-[14px] font-jost text-textC font-bold">STYLE</li>
-              <li className="text-[14px] font-jost text-textC font-bold">TRENDS</li>
+             
+              
             </ul>
           </div>
         
@@ -45,7 +46,7 @@ const Shop = () => {
                 </div>
                
                 {/* right side */}
-                <div className="flex items-end m-0 p-0 ">
+                <div className="flex justify-center mt-8 lg:mt-0">
                   <Image imgSrc={bannercoat} imgAlt={bannercoat} />
                 </div>
               </Flex>
@@ -58,7 +59,7 @@ const Shop = () => {
           
 
     <div className="grid sm:ml-3  gap-8 grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-20">
-  <div className="relative group  sm:w-[300px]  w-[320px] overflow-hidden">
+  <div className="relative group w-full sm:w-[300px] overflow-hidden">
   <Image
     imgSrc={pc9}
     imgAlt="Product"className="w-full h-auto transition-transform duration-300 group-hover:-translate-y-2"/>
@@ -78,7 +79,7 @@ const Shop = () => {
   </h6>
   <p className="text-textC font-jost font-medium text-[14px]">$29</p>
 </div>
-  <div className="relative group sm:w-[300px]  w-[320px] overflow-hidden">
+  <div className="relative group w-full sm:w-[300px] overflow-hidden">
   <Image
     imgSrc={p2}
     imgAlt="Product"className="w-full h-auto transition-transform duration-300 group-hover:-translate-y-2"/>
@@ -98,7 +99,7 @@ const Shop = () => {
   </h6>
   <p className="text-textC font-jost font-medium text-[14px]">$39</p>
 </div>
-  <div className="relative group  sm:w-[300px] w-[320px] overflow-hidden">
+  <div className="relative group w-full sm:w-[300px] overflow-hidden">
   <Image
     imgSrc={p3}
     imgAlt="Product"className="w-full h-auto transition-transform duration-300 group-hover:-translate-y-2"/>
@@ -118,7 +119,7 @@ const Shop = () => {
   </h6>
   <p className="text-textC font-jost font-medium text-[14px]">$29</p>
 </div>
-  <div className="relative group sm:w-[300px]  w-[320px] overflow-hidden">
+  <div className="relative group w-full sm:w-[300px] overflow-hidden">
   <Image
     imgSrc={pc4}
     imgAlt="Product"className="w-full h-auto transition-transform duration-300 group-hover:-translate-y-2"/>
@@ -138,7 +139,7 @@ const Shop = () => {
   </h6>
   <p className="text-textC font-jost font-medium text-[14px]">$40</p>
 </div>
-  <div className="relative group sm:w-[300px]  w-[320px] overflow-hidden">
+  <div className="relative group w-full sm:w-[300px] overflow-hidden">
   <Image
     imgSrc={p12}
     imgAlt="Product"className="w-full h-auto transition-transform duration-300 group-hover:-translate-y-2"/>
@@ -158,7 +159,7 @@ const Shop = () => {
   </h6>
   <p className="text-textC font-jost font-medium text-[14px]">$69</p>
 </div>
-  <div className="relative group sm:w-[300px]  w-[320px] overflow-hidden">
+  <div className="relative group w-full sm:w-[300px] overflow-hidden">
   <Image
     imgSrc={pc6}
     imgAlt="Product"className="w-full h-auto transition-transform duration-300 group-hover:-translate-y-2"/>
@@ -179,7 +180,7 @@ const Shop = () => {
   <p className="text-textC font-jost font-medium text-[14px]">$20</p>
 </div>
   
-  <div className="relative group  sm:w-[300px] w-[320px] overflow-hidden">
+  <div className="relative group w-full sm:w-[300px] overflow-hidden">
   <Image
     imgSrc={p7}
     imgAlt="Product"className="w-full h-auto transition-transform duration-300 group-hover:-translate-y-2"/>
@@ -199,7 +200,7 @@ const Shop = () => {
   </h6>
   <p className="text-textC font-jost font-medium text-[14px]">$37</p>
 </div> 
-   <div className="relative group sm:w-[300px]  w-[320px] overflow-hidden">
+   <div className="relative group w-full sm:w-[300px] overflow-hidden">
   <Image
     imgSrc={pc8}
     imgAlt="Product"className="w-full h-auto transition-transform duration-300 group-hover:-translate-y-2"/>

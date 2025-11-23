@@ -129,7 +129,7 @@ const settings = {
       ADD TO CART
     </button>
     <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px] sm:text-[10px]">Dresses</h6>
-    <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">Hub Accent Mirror</h6>
+    <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">Hub Mirror</h6>
     <div className="flex gap-x-1 items-center">
       <del className="text-red-500 font-jost font-medium text-[14px] sm:text-[10px]">$70</del>
       <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">$62</h6>
