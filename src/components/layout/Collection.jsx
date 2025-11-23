@@ -23,9 +23,9 @@ const Collection = () => {
           <div className="w-full lg:w-1/2 mt-4 lg:mt-0">
             <Image imgSrc={collection2} imgAlt={collection2} className="w-full " />
             
-            <Flex className="justify-between gap-2 mt-2 flex-col w-[550px]   sm:flex-row">
-              <Image imgSrc={collection3} imgAlt={collection3} className="w-full " />
-              <Image imgSrc={collection4} imgAlt={collection4} className="w-full " />
+            <Flex className="justify-between gap-2 mt-2 flex-col sm:flex-row w-full">
+              <Image imgSrc={collection3} imgAlt={collection3} className="w-full sm:w-1/2" />
+              <Image imgSrc={collection4} imgAlt={collection4} className="w-full sm:w-1/2" />
             </Flex>
           </div>
 

@@ -28,7 +28,7 @@ const Shop = () => {
                   <div className="flex items-center gap-x-4 mb-6">
                    
                   </div>
-                  <h1 className="text-textC font-jost font-bold text-[75px] leading-[80px]">Jackets & Coats</h1>
+                  <h1 className="text-textC font-jost font-bold sm:text-[35px] text-[75px] leading-[80px]">Jackets & Coats</h1>
                   
           <div className="sm:ml-5">
             
@@ -56,8 +56,8 @@ const Shop = () => {
 <section>
  <Container>
           
-<Flex className="justify-between mt-10 py-[100px]">
-    <div className="grid sm:ml-3  gap-8 grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
+
+    <div className="grid sm:ml-3  gap-8 grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-20">
   <div className="relative group  sm:w-[300px]  w-[320px] overflow-hidden">
   <Image
     imgSrc={pc9}
@@ -221,7 +221,7 @@ const Shop = () => {
 </div>
         
     </div>
-</Flex>
+
         </Container>
 </section>
        

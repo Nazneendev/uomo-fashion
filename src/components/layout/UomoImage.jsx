@@ -41,26 +41,41 @@ const UomoImage = () => {
           ))}
         </div>
 
-        <Flex className="justify-between items-center sm:ml-2 sm:mr-2 mt-30">
-        <div className="">
- <ImHeadphones  className="text-textC font-jost font-medium  text-[80px] ml-14 "/>
-  <h3 className='text-textC font-jost font-medium  text-[20px]  sm:text-[14px] mt-10'>24/7 CUSTOMER SUPPORT</h3>
-        <h6 className='text-textC font-jost text-center text-18px  sm:text-[14px]'>Friendly 24/7 customer support</h6>
-        </div>
-        <div className="">
- <MdOutlineLocalShipping className='text-textC font-jost font-medium  text-[80px] ml-14'/>
-  <h3 className='text-textC font-jost font-medium  text-[20px] sm:text-[14px] mt-10'>FAST AND FREE DELIVERY</h3>
-        <h6 className='text-textC font-jost text-center text-18px sm:text-[14px]'>Free delivery for all orders over $140</h6>
-        </div>
-        <div className="">
- <MdSecurity  className='text-textC font-jost font-medium  text-[80px] ml-14'/>
-  <h3 className='text-textC font-jost font-medium  text-[20px] sm:text-[14px] mt-10'>MONEY BACK GUARANTEE</h3>
-        <h6 className='text-textC font-jost text-center  text-18px sm:text-[14px]'>We return money within 30 days</h6>
-        </div>
-       
-       
+       <Flex className="flex-col sm:flex-row justify-between items-center gap-10 sm:ml-2 sm:mr-2 mt-30">
 
-        </Flex>
+
+  <div className="flex flex-col items-center text-center">
+    <ImHeadphones className="text-textC text-[60px] sm:text-[80px]" />
+    <h3 className="text-textC font-jost font-medium text-[18px] sm:text-[20px] mt-4">
+      24/7 CUSTOMER SUPPORT
+    </h3>
+    <h6 className="text-textC font-jost text-[14px] sm:text-[14px]">
+      Friendly 24/7 customer support
+    </h6>
+  </div>
+ 
+  <div className="flex flex-col items-center text-center">
+    <MdOutlineLocalShipping className="text-textC text-[60px] sm:text-[80px]" />
+    <h3 className="text-textC font-jost font-medium text-[18px] sm:text-[20px] mt-4">
+      FAST AND FREE DELIVERY
+    </h3>
+    <h6 className="text-textC font-jost text-[14px] sm:text-[14px]">
+      Free delivery for all orders over $140
+    </h6>
+  </div>
+ 
+  <div className="flex flex-col items-center text-center">
+    <MdSecurity className="text-textC text-[60px] sm:text-[80px]" />
+    <h3 className="text-textC font-jost font-medium text-[18px] sm:text-[20px] mt-4">
+      MONEY BACK GUARANTEE
+    </h3>
+    <h6 className="text-textC font-jost text-[14px] sm:text-[14px]">
+      We return money within 30 days
+    </h6>
+  </div>
+
+</Flex>
+
 
       </Container>
     </div>

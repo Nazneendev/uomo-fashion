@@ -38,7 +38,7 @@ const settings = {
         
       
            
-                <h2 className="text-textC text-center font-bold text-[35px]  font-jost">LIMITED EDITION</h2>
+                <h2 className="text-textC text-center font-bold text-[35px] sm:text-[25px] font-jost">LIMITED EDITION</h2>
 <div className="-mx-4">
   <Slider {...settings} className="mt-10 ">
   <div className="relative group overflow-hidden   px-4">
@@ -53,9 +53,9 @@ const settings = {
     >
       ADD TO CART
     </button>
-    <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px]">Dresses</h6>
-    <h6 className="text-textC font-jost font-medium text-[14px]">Hosking Blue Area Rug</h6>
-    <p className="text-textC font-jost font-medium text-[14px]">$35</p>
+    <h6 className="text-gray-400 pt-2 font-jost font-medium sm:text-[10px] text-[14px]">Dresses</h6>
+    <h6 className="text-textC font-jost font-medium sm:text-[10px] text-[14px]">Hosking Rug</h6>
+    <p className="text-textC font-jost font-medium sm:text-[10px] text-[14px]">$35</p>
   </div>
 
   <div className="relative group overflow-hidden  px-4">
@@ -70,11 +70,11 @@ const settings = {
     >
       ADD TO CART
     </button>
-    <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px]">Dresses</h6>
-    <h6 className="text-textC font-jost font-medium text-[14px]">Hub Accent Mirror</h6>
+    <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px] sm:text-[10px]">Dresses</h6>
+    <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">Hub Mirror</h6>
     <div className="flex gap-x-1 items-center">
-      <del className="text-red-500 font-jost font-medium text-[14px]">$70</del>
-      <h6 className="text-textC font-jost font-medium text-[14px]">$62</h6>
+      <del className="text-red-500 font-jost font-medium text-[14px] sm:text-[10px]">$70</del>
+      <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">$62</h6>
     </div>
   </div>
 
@@ -91,9 +91,9 @@ const settings = {
     >
       ADD TO CART
     </button>
-    <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px]">Dresses</h6>
-    <h6 className="text-textC font-jost font-medium text-[14px]">Hanneman Pouf</h6>
-    <p className="text-textC font-jost font-medium text-[14px]">$79</p>
+    <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px] sm:text-[10px]">Dresses</h6>
+    <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">Hanneman Pouf</h6>
+    <p className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">$79</p>
   </div>
 
 
@@ -109,11 +109,11 @@ const settings = {
     >
       ADD TO CART
     </button>
-    <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px]">Dresses</h6>
-    <h6 className="text-textC font-jost font-medium text-[14px]">Cushion Futon Slipcover</h6>
+    <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px] sm:text-[10px]">Dresses</h6>
+    <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">Cushion Futon</h6>
     <div className="flex gap-x-1 items-center">
-      <del className="text-red-500 font-jost font-medium text-[14px]">$40</del>
-      <h6 className="text-textC font-jost font-medium text-[14px]">$32</h6>
+      <del className="text-red-500 font-jost font-medium text-[14px] sm:text-[10px]">$40</del>
+      <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">$32</h6>
     </div>
   </div>
    <div className="relative group overflow-hidden  px-4">
@@ -128,11 +128,11 @@ const settings = {
     >
       ADD TO CART
     </button>
-    <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px]">Dresses</h6>
-    <h6 className="text-textC font-jost font-medium text-[14px]">Hub Accent Mirror</h6>
+    <h6 className="text-gray-400 pt-2 font-jost font-medium text-[14px] sm:text-[10px]">Dresses</h6>
+    <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">Hub Accent Mirror</h6>
     <div className="flex gap-x-1 items-center">
-      <del className="text-red-500 font-jost font-medium text-[14px]">$70</del>
-      <h6 className="text-textC font-jost font-medium text-[14px]">$62</h6>
+      <del className="text-red-500 font-jost font-medium text-[14px] sm:text-[10px]">$70</del>
+      <h6 className="text-textC font-jost font-medium text-[14px] sm:text-[10px]">$62</h6>
     </div>
   </div>
 

@@ -16,11 +16,11 @@ const Header = () => {
   return (
     <>
       <div className="fixed top-0 left-0 w-full z-50 bg-white">
-        <Container>
-          <div className="navbar justify-between">
+        <Container className="px-4 sm:px-6 lg:px-0">
+          <div className="navbar justify-between py-3 lg:py-5">
             <div className="navbar-start">
               <Link to="/">
-                <Image imgSrc={logo} imgAlt="website logo" />
+                <Image imgSrc={logo} imgAlt="website logo" className="w-[90px] sm:w-[120px]"/>
               </Link>
             </div>
 
@@ -98,12 +98,12 @@ const Header = () => {
             </div>
 
             
-            <div className="navbar-end flex items-center gap-x-4">
-              <BsSearch className="text-black font-bold text-xl"/>
-              <GoPeople className="text-black font-bold text-xl"/>
-              <FaRegHeart className="text-black font-bold text-xl"/>
-              <FaCartFlatbedSuitcase className="text-black font-bold text-xl"/>
-            </div>
+             <div className="navbar-end flex items-center gap-x-3 sm:gap-x-4">
+        <BsSearch className="text-[18px] sm:text-xl text-textC"/>
+        <GoPeople className="text-[18px] sm:text-xl text-textC"/>
+        <FaRegHeart className="text-[18px] sm:text-xl text-textC"/>
+        <FaCartFlatbedSuitcase className="text-[18px] sm:text-xl text-textC"/>
+      </div>
 
             <ResponsiveMenu />
           </div>
